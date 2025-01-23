@@ -9,6 +9,8 @@ that aside, im dogshit with gui design so im just gonna take the lazy route and 
 
 also its in python because i dont wanna deal with another language rn and i have the most experience with python so i guess eventually i'll rewrite it in something else if i feel like it but it probably wont happen just because of the simplicity of the program. like seriously all it does is check what apps are open every minute and serve a web gui to view the usage stats
 
+im probably gonna put the actual code in the `real_prototype_1` folder for now i guess since its cleaner than just putting it in the base folder and it makes it easier to manage different versions
+
 last thing: dont judge my code quality. beggars cant be choosers. dont send issues send patches.
 
 backlink farming: [my website](https://sleepie.dev/) [twitter video downloader](https://dwl-twitter.com/) [free image hosting](https://imghost.cc/) [github to discord webhook proxy](https://proxydiscord.com/) [the best multipurpose discord bot ever!!!](https://sleepys.pet/)
