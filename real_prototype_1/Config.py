@@ -23,6 +23,7 @@ class Config:
             #make sure to add any new config values here so that theyre easily accessible in the code
             self.DATABASE_FILE: str = ...
             self.SERVER_PORT: int = ...
+            self.LOG_INTERVAL: int = ...
             
             self._load_from_file()
             self._unpack_config()
@@ -37,3 +38,4 @@ class Config:
         # add new config values here too duh
         self.DATABASE_FILE = self.config.get("DATABASE_FILE", "usage_stats.db")
         self.SERVER_PORT = self.config.get("SERVER_PORT", 33117)
+        self.LOG_INTERVAL = self.config.get("LOG_INTERVAL", 60)

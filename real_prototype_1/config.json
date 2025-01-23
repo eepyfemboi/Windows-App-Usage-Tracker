@@ -1,4 +1,5 @@
 {
     "DATABASE_FILE": "usage_stats.db",
-    "SERVER_PORT": 33117
+    "SERVER_PORT": 33117,
+    "LOG_INTERVAL": 60
 }

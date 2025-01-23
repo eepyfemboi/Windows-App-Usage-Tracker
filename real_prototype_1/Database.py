@@ -39,6 +39,7 @@ class Database:
                 t_day INTEGER,
                 t_month INTEGER,
                 t_year INTEGER,
+                interval INTEGER,
                 active_app TEXT,
                 background_apps TEXT
             )
@@ -50,8 +51,9 @@ class Database:
                 INSERT INTO app_usage (
                     timestamp, 
                     t_hour, t_day, t_month, t_year, 
+                    interval, 
                     active_app, background_apps
-                ) VALUES (?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
             ''',
             (
                 timestamp.isoformat(),
@@ -59,6 +61,7 @@ class Database:
                 timestamp.day,
                 timestamp.month,
                 timestamp.year,
+                config.LOG_INTERVAL,
                 active_app,
                 json.dumps(background_apps)
             )
