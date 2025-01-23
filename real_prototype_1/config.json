@@ -1,0 +1,4 @@
+{
+    "DATABASE_FILE": "usage_stats.db",
+    "SERVER_PORT": 33117
+}
