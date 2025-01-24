@@ -1,4 +1,7 @@
 # Windows-App-Usage-Tracker
+
+## THIS DOESNT WORK YET
+
 a python app usage tracker for windows that probably wont work very well and is mostly based on chatgpt until i figure out what im doing
 
 im literally only making this because i couldnt find any other software that does precisely what i want out of it, and also everything else i tried wanted me to sign up for a subscription in addition to it not doing what i wanted it to do
